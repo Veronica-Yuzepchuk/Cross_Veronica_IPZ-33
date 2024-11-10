@@ -31,7 +31,6 @@ class SignupScreen extends StatelessWidget {
               height: 48,
               child: ElevatedButton(
                 onPressed: () {
-                  // Додати логіку реєстрації
                 },
                 child: const Text("Зареєструватися"),
               ),

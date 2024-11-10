@@ -22,7 +22,6 @@ class ResetPasswordScreen extends StatelessWidget {
               height: 48,
               child: ElevatedButton(
                 onPressed: () {
-                  // Додати логіку відновлення паролю
                 },
                 child: const Text("Відновити пароль"),
               ),

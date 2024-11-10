@@ -36,7 +36,6 @@ class SignInScreen extends StatelessWidget {
                     height: 48,
                     child: ElevatedButton(
                       onPressed: () {
-                        // Додати логіку авторизації
                       },
                       child: const Text("Увійти"),
                     ),
