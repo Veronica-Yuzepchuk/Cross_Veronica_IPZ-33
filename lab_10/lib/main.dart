@@ -205,7 +205,7 @@ class SecondScreen extends StatelessWidget {
               children: [
                 ElevatedButton(
                   onPressed: () {
-                    Navigator.of(context).pop();
+                    Navigator.pop(context, 'ok');
                   },
                   style: ElevatedButton.styleFrom(
                     backgroundColor: Colors.deepPurple,
